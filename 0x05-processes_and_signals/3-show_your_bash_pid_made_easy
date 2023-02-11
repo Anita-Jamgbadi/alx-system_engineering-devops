@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays PIDs of processes with 'bash' in their names without using 'ps' command
+
+pgrep -l bash

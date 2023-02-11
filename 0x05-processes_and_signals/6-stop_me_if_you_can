@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills the infinity process in task 4 without using the kill or killall command
+
+pkill -f 4-to_infinity_and_beyond
