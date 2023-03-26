@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Uses ssh to connect to my sevr using a private key in ~/.ssh/school
+ssh -i ~/.ssh/school ubuntu@56470-web-01
