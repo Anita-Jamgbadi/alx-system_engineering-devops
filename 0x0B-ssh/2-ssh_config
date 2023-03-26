@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Configuring server to allow authentication without passwd
+
+Host 56470-web-01
+	IdentifyFile ~/.ssh/school
+	PasswordAuthentication no
