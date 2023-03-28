@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Configs an ubuntu machine to redirect on a 301 code
+
+sudo apt-get update
+sudo apt-get -y install nginx
+
+echo "Hello World!" > /var/www/html/index.html
+
+echo "server {
+    listen 80;
+    location /redirect_me {
+        return 301 https://www.example.com/;
+    }
+}" > /etc/nginx/sites-available/default
+
+service nginx restart
