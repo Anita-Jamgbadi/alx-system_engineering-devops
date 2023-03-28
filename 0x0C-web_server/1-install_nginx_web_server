@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script installs Nginx on a server, configures it to
+#listen on port 80, and changes its home html to 'Hello World!'
+
+apt-get update
+apt-get -y intsall nginx
+echo "Hello World" > /var/www/html/index.html
+service nginx start
