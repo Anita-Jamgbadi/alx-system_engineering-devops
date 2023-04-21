@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Checks the user currently running
 
 if [ $# -eq 0 ]; then
