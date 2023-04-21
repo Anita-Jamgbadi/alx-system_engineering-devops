@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
 # Checks the user currently running
 
-if [ $# -eq 0 ]; then
-        echo "Usage: $0 username"
-        exit 1
-elif [ $# -gt 1 ]; then
-	exit 1
-fi
-
-#Checks if user exists
-echo "$1"
+sudo -u "$1" whoami
