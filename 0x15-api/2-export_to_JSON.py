@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Documentation: further extends task 0 """
+"""Accessing a REST API for todo lists of employees"""
 
 import json
 import requests
