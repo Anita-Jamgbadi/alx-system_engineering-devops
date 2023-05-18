@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Checks the user currently running
-
-sudo -u "$1" whoami
